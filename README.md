@@ -41,4 +41,4 @@ Once you know the expected output, then you can use different ways to work aroun
 
 Other great resources on PyEz
 
-https://github.com/vnitinv/pyez-examples/blob/master/fpc-info.py
+https://github.com/vnitinv/pyez-examples
