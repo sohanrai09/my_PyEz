@@ -16,8 +16,8 @@ intf_list = ['xe-1/0/0','et-0/2/0','ge-0/0/0']
 # Function to fetch the Admin and Operational status of the Interface
 def intf_status_check(intf):
     rpc_result = dev.rpc.get_interface_information(terse=True, interface_name=intf)
-    admin_status = rpc_result.find("./physical-interface/admin-status")
-    oper_status = rpc_result.find("./physical-interface/oper-status")
+    admin_status = rpc_result.find(".//admin-status")
+    oper_status = rpc_result.find(".//oper-status")
     return admin_status.text.strip(), oper_status.text.strip()
 
 
