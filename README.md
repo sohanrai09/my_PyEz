@@ -5,7 +5,7 @@ PyEz is a python library to interact with Junos devices [Documentation](https://
 
 The best thing about PyEz is the interaction with devices using RPCs(Remote Procedure Calls). This is an effecient way of interacting with devices to fetch details rather than 'screen scraping'. 
 
-For any command you wish to know the the RPC, you can find it easily from the CLI. In the below example, *get-software-information* would be the RPC equivalent for CLI command *show version*
+For any command you wish to know the RPC, you can find it easily from the CLI. In the below example, *get_software_information* would be the RPC equivalent for CLI command *show version* (replace '-' with '_')
 
 ```
 show version | display xml rpc   
